@@ -8,7 +8,7 @@ class Textos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (temp! <= 0) {
-      return Container(
+      return Container( // banana
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
         decoration: BoxDecoration(
           gradient: LinearGradient(
